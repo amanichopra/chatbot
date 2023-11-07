@@ -1,3 +1,7 @@
+# Python Chatbot
+
+In this project, I build a chatbot using the Cornell Movie Dialogs Corpus by implementing a seq-to-seq model with Luong attention and greedy-search decoding. Next, I use Weights & Biases to log metrics during model training, conduct hyperparamter sweeps, and analyze results. Thirdly, I using the Pytorch Profiler to analyze memory usage, inference time, and the stack trace. Lastly, I convert the PyTorch model to a TorchScript model that can be run in C++.
+
 ## Directory Structure
 - `chatbot.ipynb` contains the code for making the chatbot, running hyperparameter sweep in W&B, running profiling w/ Pytorch Profiler, converting the models to TorchScript, and benchmarking latency.
 - `model_no_tuning.tar` includes the saved model files with no hyperparameter tuning.
